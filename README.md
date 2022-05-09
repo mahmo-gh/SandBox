@@ -1,6 +1,7 @@
 # FPGA
 
-![1024px-Xerox_ColorQube_8570_-_Main_controller_-_Xilinx_Spartan_XC3S400A-0205](https://user-images.githubusercontent.com/87826618/167335811-2a3f454a-c5f0-42ef-9456-835261501600.jpg)
+![k](https://user-images.githubusercontent.com/87826618/167341735-a77a3543-019a-481c-9b0c-6b2cadf6f9f9.jpg)
+
 
 # Content
 - [Introduction](https://github.com/mahmo-gh/SandBox/blob/main/README.md#introduction)
