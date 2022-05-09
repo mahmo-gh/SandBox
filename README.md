@@ -22,7 +22,7 @@ A field-programmable gate array, or "FPGA" for short is an integrated circuit de
 The fact that FPGAs are programmable distinguishes them from **A**plication **S**pecific **I**ntegrated **C**ircuits , or ASIC.
 Here's an analogy to help demonstrate the difference between them, imagine a blank page on a digital painting program, that page could be re-drawn over and over again with different shapes but that is not the case with a physical blank canvas once it gets painted, it can't be redesigned and a new canvas is needed. The same goes for the difference between FPGAs and ASICs, an FPGA can be reprogrammed an infinite number of times to function as different logic designs while that's not possible for an ASIC.
 
-          | 
+       hh   | kkk
 :-------------------------:|:-------------------------:
 ![giphy](https://user-images.githubusercontent.com/87826618/167340278-295e9dad-4381-49f1-8fad-ec397e7fa282.gif) |  ![7VW](https://user-images.githubusercontent.com/87826618/167340285-21158caa-7574-4fd2-92fc-79f4e3f47e38.gif)
 
