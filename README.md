@@ -6,7 +6,7 @@
 # Content
 - [Introduction](https://github.com/mahmo-gh/SandBox/blob/main/README.md#introduction)
 - [The difference between FPGA and ASIC](https://github.com/mahmo-gh/SandBox/blob/main/README.md#the-difference-between-fpga-and-asic)
-- [Why use an FPGA (advantages)]()
+- [Why use an FPGA (advantages)](https://github.com/mahmo-gh/SandBox/blob/main/README.md#why-use-an-fpga-)
 
 
 
