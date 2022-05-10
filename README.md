@@ -50,4 +50,16 @@ Here's an analogy to help demonstrate the difference between them, imagine a bla
  ![Screenshot 2022-05-10 013554](https://user-images.githubusercontent.com/87826618/167515806-ce52d23c-701f-4c30-ab6f-d9ed54b2ce64.jpg)
  
  ## Why use an FPGA ?
+ 
+ - **Prototyping** : To verify digital hardware designs without the upfront cost of ASIC manufacture. Many ASICs are prototyped using FPGAs themselves!
+ 
+ 
+ - **Acceleration** : FPGAs are highly suited for applications where the current design might need to be upgraded to use a better algorithm or to a better design that of course impossible to achieve with ASICs.
+ 
+ 
+ - **Fast time to market** : ASIC design flow is a more involved process and takes longer. Therefore, some people may opt for ready-made FPGA chips so they can move to market faster.
+
+
+ - **parallelism** : This is one of the huge advantages of FPGA is in the main one of the main reasons why you would choose them over a microcontroller for certain projects because if you take your basic microcontroller it's effectively a bottleneck everything has to run through that processor call in sequence while with FPGAs you can achieve parallelism because this all this logic block or all the logic blocks are completely configurable and separate so you can be processing different pins and outputting something at the exact instant.
+
 
