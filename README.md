@@ -6,6 +6,7 @@
 # Content
 - [Introduction](https://github.com/mahmo-gh/SandBox/blob/main/README.md#introduction)
 - [The difference between FPGA and ASIC](https://github.com/mahmo-gh/SandBox/blob/main/README.md#the-difference-between-fpga-and-asic)
+- [Why use an FPGA (advantages)]()
 
 
 
@@ -47,4 +48,6 @@ Here's an analogy to help demonstrate the difference between them, imagine a bla
 **The image below summarizes the comparison between FPGAs and ASICs**
 
  ![Screenshot 2022-05-10 013554](https://user-images.githubusercontent.com/87826618/167515806-ce52d23c-701f-4c30-ab6f-d9ed54b2ce64.jpg)
+ 
+ ## Why use an FPGA ?
 
