@@ -7,7 +7,8 @@
 - [Introduction](https://github.com/mahmo-gh/SandBox/blob/main/README.md#introduction)
 - [The difference between FPGA and ASIC](https://github.com/mahmo-gh/SandBox/blob/main/README.md#the-difference-between-fpga-and-asic)
 - [Why use an FPGA (advantages)](https://github.com/mahmo-gh/SandBox/blob/main/README.md#why-use-an-fpga-)
-
+- [Architecture](https://github.com/mahmo-gh/SandBox/blob/main/README.md#why-architecture-)
+- [FPGA Programming](https://github.com/mahmo-gh/SandBox/blob/main/README.md#why-fpga-programming-)
 
 
 
@@ -62,4 +63,28 @@ Here's an analogy to help demonstrate the difference between them, imagine a bla
 
  - **parallelism** : This is one of the huge advantages of FPGA is in the main one of the main reasons why you would choose them over a microcontroller for certain projects because if you take your basic microcontroller it's effectively a bottleneck everything has to run through that processor call in sequence while with FPGAs you can achieve parallelism because this all this logic block or all the logic blocks are completely configurable and separate so you can be processing different pins and outputting something at the exact instant.
 
+
+## FPGA Programming
+![image](https://user-images.githubusercontent.com/66218339/168486711-4cf240f5-3c22-444e-bfe5-81602bdc0bd0.png)
+
+FPGAs bridge the gap between programming software and programming hardware via their physical attributes that can be manipulated through the Hardware Description Languages (HDLs).
+
+The process is the same as writing a code, where this code is turned into a binary file and then loaded on the FPGA, but instead of running it via software sequentially, the outcome is physical changes to the hardware. Whatever you’re writing will eventually end up as a physical circuit.
+
+The binary file describes how an FPGA has to be configured, and how to connect the gates, flip-flops, and the other circuit components included in the FPGA.
+
+An inbuilt configuration circuit inside the FPGA reads this binary file via a flash memory and configures the FPGA accordingly. It can also be achieved by another FPGA or microcontroller in charge of the configuration and boot-up process.
+
+Hardware Description Languages that are commonly used to program FPGAs are Verilog, VHDL (Very high -speed integrated circuits Hardware Description Language), and SystemVerilog.
+
+### FPGA-programming building units:
+- **Compiling**:Compilation of Hardware Description Language (HDL) into register transfer logic (RTL). As the name implies, data is transferred to registers. The compiler is said to produce bits to control fixed-gate patterns (registers, arithmetic logic unit, and so on). 
+Then synthesizing, the synthesizer defines gate patterns described by the program logic. Meaning your program logic gets synthesized into logical gates, not into instructions.
+The output is an Electronic Design Interchange Format (EDIF) file. 
+
+- **Linking**:Either you must be linked to the operating system or other programs existing in libraries.
+The place and route operation in FPGA places the synthesized EDIF and makes connections to produce HEX files that can be loaded into the FPGA.
+This bitstream will end up controlling the logic gates and filling registers and memories.
+
+- **Loading**:Finally, FPGA programs - compiled, synthesized, placed, and routed ones- must be loaded in the physical FPGAs so as to implement the gates of the system.
 
